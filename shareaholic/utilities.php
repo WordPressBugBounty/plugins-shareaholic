@@ -127,7 +127,6 @@ class ShareaholicUtilities {
 	/**
 	 * Extend the admin bar
 	 */
-
 	public static function admin_bar_extended() {
 		global $wp_admin_bar;
 
@@ -1313,7 +1312,8 @@ class ShareaholicUtilities {
 	 * This loads the locales
 	 */
 	public static function localize() {
-		load_plugin_textdomain( 'shareaholic', false, basename( __DIR__ ) . '/languages/' );
+		// Load the textdomain for translations.
+		load_plugin_textdomain( 'shareaholic', false, plugin_basename( __DIR__ ) . '/languages/' );
 	}
 
 	/**

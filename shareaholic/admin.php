@@ -167,7 +167,6 @@ class ShareaholicAdmin {
 	/**
 	 * Sends user to the Settings page on activation of Shareaholic plugin
 	 */
-
 	public static function activation_redirect() {
 		// Bail if no activation redirect transient
 		if ( ! get_transient( '_shr_activation_redirect' ) ) {

@@ -1,8 +1,8 @@
 # Copyright (C) 2024 Shareaholic
-# This file is distributed under the same license as the Shareaholic - Easily Grow and Engage Your Audience plugin.
+# This file is distributed under the same license as the Shareaholic - Grow and Engage Your Audience plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Shareaholic - Easily Grow and Engage Your Audience 9.7.12\n"
+"Project-Id-Version: Shareaholic - Grow and Engage Your Audience 9.7.13\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/shareaholic\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,29 +11,34 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2022-01-19T20:08:08+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.9.0\n"
+"X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: shareaholic\n"
 
 #. Plugin Name of the plugin
-msgid "Shareaholic - Easily Grow and Engage Your Audience"
+#: shareaholic.php
+msgid "Shareaholic - Grow and Engage Your Audience"
 msgstr ""
 
 #. Plugin URI of the plugin
+#: shareaholic.php
 msgid "https://www.shareaholic.com/website-tools/"
 msgstr ""
 
 #. Description of the plugin
-msgid "Shareaholic's official WordPress plugin allows you to add Award-Winning and Professional Social Share Buttons, Related Posts, Content Analytics, Ad Monetization, and more to your website."
+#: shareaholic.php
+msgid "Shareaholic's official WordPress plugin allows you to add award-winning and professional Social Share Buttons, Related Posts, Content Analytics, Ad Monetization, and much more to your website."
 msgstr ""
 
 #. Author of the plugin
-#: admin.php:474
+#: shareaholic.php
+#: admin.php:473
 #: languages/shareaholic-translations.php:561
-#: utilities.php:134
+#: utilities.php:133
 msgid "Shareaholic"
 msgstr ""
 
 #. Author URI of the plugin
+#: shareaholic.php
 msgid "https://www.shareaholic.com"
 msgstr ""
 
@@ -61,114 +66,114 @@ msgstr ""
 msgid "Dismiss"
 msgstr ""
 
-#: admin.php:473
+#: admin.php:472
 msgid "Shareaholic Settings"
 msgstr ""
 
+#: admin.php:481
 #: admin.php:482
-#: admin.php:483
-#: utilities.php:172
+#: utilities.php:171
 msgid "Cloud Settings"
 msgstr ""
 
+#: admin.php:489
 #: admin.php:490
-#: admin.php:491
 msgid "In-Page Code Blocks"
 msgstr ""
 
+#: admin.php:497
 #: admin.php:498
-#: admin.php:499
 #: templates/advanced_settings.php:15
 msgid "Plugin Settings"
 msgstr ""
 
-#: admin.php:507
+#: admin.php:506
 #: languages/shareaholic-translations.php:679
 #: utilities.php:111
 msgid "Upgrade"
 msgstr ""
 
-#: admin.php:508
+#: admin.php:507
 msgid "<span style=\"color: #FCB214;\">Upgrade to Premium</span>"
 msgstr ""
 
-#: admin.php:525
-#: admin.php:689
+#: admin.php:524
+#: admin.php:688
 msgid "Settings successfully saved"
 msgstr ""
 
-#: admin.php:683
+#: admin.php:682
 msgid "Settings successfully reset. Refresh this page to complete the reset."
 msgstr ""
 
-#: admin.php:919
+#: admin.php:918
 msgid "I think I found a bug"
 msgstr ""
 
-#: admin.php:920
+#: admin.php:919
 msgid "It's missing a feature I need"
 msgstr ""
 
-#: admin.php:921
+#: admin.php:920
 msgid "I couldn't figure out how to do something"
 msgstr ""
 
-#: admin.php:922
+#: admin.php:921
 msgid "It's too slow or inefficient"
 msgstr ""
 
-#: admin.php:923
+#: admin.php:922
 msgid "I don't want to signup"
 msgstr ""
 
-#: admin.php:924
+#: admin.php:923
 msgid "Temporarily deactivating or troubleshooting"
 msgstr ""
 
-#: admin.php:925
+#: admin.php:924
 #: languages/shareaholic-translations.php:428
 msgid "Other"
 msgstr ""
 
-#: admin.php:934
+#: admin.php:933
 msgid "Quick Feedback"
 msgstr ""
 
-#: admin.php:935
+#: admin.php:934
 msgid "If you would be kind enough, please tell us why you are deactivating the plugin:"
 msgstr ""
 
-#: admin.php:937
+#: admin.php:936
 msgid "Please share anything you think might be helpful. The more we know about your problem, the faster we'll be able to fix it."
 msgstr ""
 
-#: admin.php:939
+#: admin.php:938
 #: languages/shareaholic-translations.php:120
 msgid "Cancel"
 msgstr ""
 
-#: admin.php:940
+#: admin.php:939
 msgid "Skip &amp; Deactivate"
 msgstr ""
 
-#: admin.php:941
+#: admin.php:940
 msgid "Submit &amp; Deactivate"
 msgstr ""
 
-#: admin.php:942
+#: admin.php:941
 #: languages/shareaholic-translations.php:475
 msgid "Please wait..."
 msgstr ""
 
-#: admin.php:943
+#: admin.php:942
 msgid "Thank you!"
 msgstr ""
 
-#: admin.php:945
+#: admin.php:944
 msgid "Have you visited %1$sthe support forum%2$s and %3$sread the FAQs%2$s for help?"
 msgstr ""
 
-#: admin.php:951
+#: admin.php:950
 msgid "If you would like to tell us more, please leave your email here. We will be in touch (only for product feedback, nothing else)."
 msgstr ""
 
@@ -3634,14 +3639,14 @@ msgstr ""
 msgid "Support & Documentation"
 msgstr ""
 
-#: utilities.php:161
+#: utilities.php:160
 msgid "Check Share Counts"
 msgstr ""
 
-#: utilities.php:181
+#: utilities.php:180
 msgid "Shareaholic.com"
 msgstr ""
 
-#: utilities.php:191
+#: utilities.php:190
 msgid "Support & FAQ"
 msgstr ""

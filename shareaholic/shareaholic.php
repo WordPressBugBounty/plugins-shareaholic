@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: Shareaholic - Easily Grow and Engage Your Audience
+Plugin Name: Shareaholic - Grow and Engage Your Audience
 Plugin URI: https://www.shareaholic.com/website-tools/
-Description: Shareaholic's official WordPress plugin allows you to add Award-Winning and Professional Social Share Buttons, Related Posts, Content Analytics, Ad Monetization, and more to your website.
-Version: 9.7.12
+Description: Shareaholic's official WordPress plugin allows you to add award-winning and professional Social Share Buttons, Related Posts, Content Analytics, Ad Monetization, and much more to your website.
+Version: 9.7.13
 Author: Shareaholic
 Author URI: https://www.shareaholic.com
 Text Domain: shareaholic
@@ -14,7 +14,7 @@ Domain Path: /languages
  * The main file!
  *
  * @package shareaholic
- * @version 9.7.12
+ * @version 9.7.13
  */
 
 /**
@@ -67,7 +67,7 @@ if ( ! class_exists( 'Shareaholic' ) ) {
 		const API_URL    = 'https://web.shareaholic.com'; // uses static IPs for firewall whitelisting
 		const CM_API_URL = 'https://cm-web.shareaholic.com'; // uses static IPs for firewall whitelisting
 
-		const VERSION = '9.7.12';
+		const VERSION = '9.7.13';
 
 		/**
 		 * Starts off as false so that ::get_instance() returns
@@ -113,7 +113,7 @@ if ( ! class_exists( 'Shareaholic' ) ) {
 			add_filter( 'wp_resource_hints', array( 'ShareaholicPublic', 'shareaholic_resource_hints' ), 10, 2 );
 			add_shortcode( 'shareaholic', array( 'ShareaholicPublic', 'shortcode' ) );
 
-			add_action( 'plugins_loaded', array( $this, 'shareaholic_init' ) );
+			add_action( 'init', array( $this, 'shareaholic_init' ) );
 
 			add_action( 'admin_init', array( 'ShareaholicAdmin', 'admin_init' ) );
 			add_action( 'admin_enqueue_scripts', array( 'ShareaholicAdmin', 'admin_header' ) );
